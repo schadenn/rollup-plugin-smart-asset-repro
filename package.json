@@ -1,0 +1,30 @@
+{
+  "name": "rollup-plugin-smart-asset-repro",
+  "version": "0.0.1",
+  "description": "rollup-plugin-smart-asset repro",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm-es5/index.js",
+  "jsnext:main": "./dist/esm/index.js",
+  "es2015": "dist/esm/index.js",
+  "es2017": "dist/esm/index.js",
+  "author": "Dennis Schaller",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "rollup": "^1.26.3",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-progress": "^1.1.1",
+    "rollup-plugin-smart-asset": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^16.11.0"
+  }
+}
